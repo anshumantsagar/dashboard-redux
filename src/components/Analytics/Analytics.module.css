@@ -1,0 +1,21 @@
+.Analytics {
+    margin: 60px 20px 100px 20px;
+    border: 1px solid rgb(243, 241, 241);
+    padding: 0px 20px 20px 20px;  
+    border-radius: 5px;      
+    color: rgb(94, 92, 92);
+}
+
+.AnalyticsButton {
+    outline: none;
+    padding: 10px;
+    color: white;
+    background: #0275d8;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+.AnalyticsButton:hover {
+    background: #0462b4;
+}

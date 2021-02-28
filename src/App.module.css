@@ -1,0 +1,51 @@
+.Form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.Form section {
+  display: flex;
+  justify-content: space-between;
+  align-items: inherit;
+  flex-direction: row;
+}
+
+.Form section span {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.CanceButton {
+  outline: none;
+  padding: 10px;
+  color: #ed433e;
+  background: white;
+  border: 1px solid #ed433e;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.CanceButton:hover {
+  background: #ed433e;
+  color: white;
+}
+
+.SaveButton {
+  outline: none;
+  padding: 10px;
+  color: #5cb85c;
+  background: white;
+  border: 1px solid #5cb85c;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.SaveButton:hover {
+  background: #5cb85c;
+  color: white;
+}
